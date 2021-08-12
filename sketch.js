@@ -186,7 +186,7 @@ function spawnObstacles(){
     obstacles.depth=trex.depth;
     trex.depth=trex.depth+1;
     obstaclesGroup.add(obstacles);
-    obstacles.lifetime=200;
+    obstacles.lifetime=width;
   }
 }
 
